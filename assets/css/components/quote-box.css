@@ -1,0 +1,122 @@
+.quote-box {
+  background: rgb(236 241 248);
+  border-radius: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.quote-box .quote-box-inner {
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.quote-box .quote-box-inner .title h2{
+  font-family: 'Playfair Display';
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.quote-box .quote-mark {
+  margin-top: 40px;
+}
+.quote-box .content {
+  margin-top: 40px;
+  color: black;
+  line-height: 34px;
+  font-weight: 400;
+}
+.quote-box .bottom {
+  margin-top: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.quote-box .bottom img {
+  max-width: 300px;
+  max-height: 50px;
+}
+.quote-box .bottom .seperator {
+  height: 50px;
+  width: 1px;
+  border-right: 2px solid lightgray;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.quote-box .bottom .user-data p{
+  text-align: left;
+  margin: 0;
+}
+.quote-box .bottom .user-data p.user-name{
+  font-weight: 500;
+}
+.quote-box .bottom .user-data p.user-company{
+  font-weight: 600;
+}
+
+@media (max-width: 991px) {
+  .quote-box .quote-box-inner {
+    width: 80%;
+  }
+  .quote-box .quote-box-inner {
+    width: 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .quote-box {
+    padding: 30px 30px 30px 30px;
+  }
+
+  .quote-box .quote-mark img {
+    width: 35px;
+    height: 25px;
+  }
+
+  .quote-box .quote-box-inner {
+    width: 100%;
+  }
+
+  .quote-box .quote-box-inner .title h2{
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 1px;
+  }
+
+  .quote-box .quote-mark {
+    margin-top: 25px;
+  }
+
+  .quote-box .content {
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .quote-box .bottom img {
+    max-height: 36px;
+  }
+
+  .quote-box .bottom {
+    margin-top: 29px;
+    display: block;
+  }
+
+  .quote-box .bottom .seperator{
+    display: none;
+  }
+
+  .quote-box .bottom .user-data {
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .quote-box .bottom .user-data p {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .return_on_investment .quote-box .bottom img {
+    max-height: 32px;
+  }
+  
+}

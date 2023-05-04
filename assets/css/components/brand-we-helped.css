@@ -1,0 +1,52 @@
+.brand-we-helped {
+  margin-top: 91px;
+}
+
+.brand-we-helped .title {
+  font-weight: 400;
+  color: rgba(67, 87, 102, 0.6);
+}
+
+.brand-we-helped .section-title {
+  color: rgba(67, 87, 102, 0.6);
+}
+
+.brand-we-helped .brand-gallery {
+  margin-top: 26px;
+}
+
+.brand-we-helped .brand-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  height: 100%;
+}
+
+.brand-we-helped .brand-item img{
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .brand-we-helped {
+    margin-top: 25px;
+  }
+
+  .brand-we-helped .brand-gallery {
+    margin-top: 5px;
+  }
+
+  .brand-we-helped .brand-gallery {
+    margin-left: -3px;
+    margin-right: -3px;
+  }
+
+  .brand-we-helped .brand-gallery > * {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .brand-we-helped .brand-item {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}

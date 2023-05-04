@@ -1,0 +1,47 @@
+#case_studies .case-studies-gallery {
+  margin-top: 70px;
+}
+
+#case_studies .brand-average-degree {
+  margin-top: 60px;
+}
+
+#case_studies .want-to-work-us {
+  margin-top: 113px;
+}
+
+#case_studies .exceed-agency-relationship {
+  margin-top: 30px;
+}
+
+#case_studies .we-know-their-stuff {
+  margin-top: 30px;
+}
+
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 767px) {
+  #case_studies .brand-average-degree {
+    margin-top: 10px;
+  }
+
+  #case_studies .want-to-work-us {
+    margin-top: 20px;
+  }
+
+  #case_studies .exceed-agency-relationship {
+    margin-top: 10px;
+  }
+
+  #case_studies .we-know-their-stuff {
+    margin-top: 10px;
+  }
+
+  #case_studies .we-know-their-stuff .quote-box .bottom .user-data{
+    margin-top: 5px;
+  }
+}
+

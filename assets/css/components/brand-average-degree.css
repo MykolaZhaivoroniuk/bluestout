@@ -1,0 +1,100 @@
+.brand-average-degree {
+  margin-top: 89px;
+  margin-bottom: 68px;
+}
+.brand-average-degree .brand-average-degree-inner {
+  width: 878px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.brand-average-degree .brand-average-degree-inner .title{
+  margin-bottom: 43px;
+  font-weight: 400;
+}
+.brand-average-degree .brand-average-degree-inner p{
+  line-height: 36px;
+  font-weight: 600;
+}
+.brand-average-degree .brand-average-degree-inner p.value{
+  color: #10A4FA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand-average-degree .brand-average-degree-inner p.value img{
+  margin-left: 5px;
+}
+.brand-average-degree .brand-average-degree-inner .down-bar{
+  height: 55px;
+  border-right: 1px solid rgba(175, 191, 202, 0.43);
+}
+.brand-average-degree .brand-average-degree-inner .down-bar:first-child{
+  margin-bottom: 24px;
+}
+.brand-average-degree .brand-average-degree-inner .down-bar:last-child{
+  margin-top: 49px;
+}
+.brand-average-degree .brand-average-degree-inner .see-most-recent {
+  margin-top: 100px;
+  font-weight: 400;
+}
+.brand-average-degree .brand-average-degree-inner .see-most-recent a {
+  text-decoration: underline;
+  color: #10A4FA;
+}
+
+@media (max-width: 1199px) {
+  .brand-average-degree {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .brand-average-degree .brand-average-degree-inner {
+    width: 80%;
+  }
+
+  .brand-average-degree .brand-average-degree-inner .see-most-recent {
+    margin-top: 50px
+  }
+}
+
+@media (max-width: 767px) {
+  .brand-average-degree {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .brand-average-degree .brand-average-degree-inner {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+  }
+  .brand-average-degree .brand-average-degree-inner p {
+    line-height: 19px;
+    font-size: 14px;
+  }
+  .brand-average-degree .brand-average-degree-inner p.value {
+    line-height: 28px;
+    font-size: 20px;
+  }
+  .brand-average-degree .brand-average-degree-inner p.value img {
+    height: 12px;
+  }
+  .brand-average-degree .brand-average-degree-inner p.desc {
+    margin-top: 10px;
+  }
+  .brand-average-degree .brand-average-degree-inner .title {
+    margin-bottom: 25px;
+  }
+  .brand-average-degree .brand-average-degree-inner .down-bar {
+    margin-top: 20px !important;
+    margin-bottom: 15px !important;
+    height: 35px;
+  }
+
+  .brand-average-degree .brand-average-degree-inner .see-most-recent {
+    margin-top: 30px
+  }
+}

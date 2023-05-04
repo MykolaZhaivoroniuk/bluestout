@@ -1,0 +1,199 @@
+#blog_home #hero .hero-inner {
+  margin-top: 75px;
+}
+
+#blog_home #newsletter_form {
+  margin-top: 42px;
+}
+
+#blog_home #post_gallery .title {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+#blog_home #post_gallery .title h2 {
+  font-weight: 500;
+  line-height: 90px;
+}
+
+#blog_home #post_gallery .category-list .category-list-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+#blog_home #post_gallery .category-list .category-item .category-button{
+  display: block;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+#blog_home #post_gallery .category-list {
+  border-bottom: 1px solid #E9EBEC;
+}
+
+#blog_home #post_gallery .category-list .category-item .category-button:hover,  #blog_home #post_gallery .category-list .category-item .category-button.active{
+  color: #10A4FA;
+}
+
+#blog_home #post_gallery .post-list {
+  margin-top: 65px;
+}
+
+#blog_home #post_gallery .post-list .post-item {
+  max-width: 920px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#blog_home #post_gallery .post-list .post-item a {
+  display: block;
+  border: 1px solid transparent;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+#blog_home #post_gallery .post-list .post-item a:hover {
+  border: 1px solid #DDE3E8;
+  box-shadow: 0px 4px 14px 0px #00000010;
+}
+
+#blog_home #post_gallery .post-list .post-item .image {
+  height: 211px;
+  border-radius: 6px;
+  background-size: cover;
+  background-position: center center;
+}
+
+#blog_home #post_gallery .post-list .post-item .top .small-title {
+  margin-left: 5px;
+}
+
+#blog_home #post_gallery .post-list .post-item .content {
+  margin-left: 10px;
+}
+
+#blog_home #post_gallery .post-list .post-item .big-title {
+  margin-top: 15px;
+  font-weight: 400;
+}
+
+#blog_home #post_gallery .post-list .post-item .post-text {
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 10px;
+}
+
+#blog_home #post_gallery {
+  padding-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  #blog_home #post_gallery .post-list {
+    margin-top: 0px;
+  }
+
+  #blog_home #post_gallery .post-list .post-item {
+    max-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+    border-bottom: 1px solid #E9EBEC;
+  }
+
+  #blog_home #post_gallery .post-list .post-item > a {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #blog_home #post_gallery .post-list .post-item .content {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  #blog_home #post_gallery .post-gallery-inner {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #blog_home #post_gallery .see-more-work {
+    margin-top: 30px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  #blog_home #hero .hero-inner {
+    margin-top: 40px;
+  }
+
+  #blog_home #newsletter_form {
+    margin-top: 12px;
+  }
+
+  #blog_home #post_gallery .title {
+    margin-bottom: 0px;
+  }
+
+  #blog_home #post_gallery .title h2 {
+    text-align: left;
+    font-size: 28px;
+    line-height: 42px;
+  }
+
+  #blog_home #post_gallery .post-list .post-item > a {
+    padding: 0px;
+  }
+
+  #blog_home #post_gallery .category-list .category-item .category-button {
+    font-size: 13px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    padding: 5px 5px;
+    position: relative;
+  }
+
+  #blog_home #post_gallery .post-list .post-item .big-title {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+  }
+
+  #blog_home #post_gallery .post-list .post-item .post-text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+  }
+
+  #blog_home #post_gallery .category-list .category-list-inner.mobile {
+    margin-right: -18px;
+  }
+  
+  #blog_home #post_gallery .category-list .category-list-inner .slick-slide  {
+    margin: 0px;
+    opacity: 1;
+  }
+  
+  #blog_home #post_gallery .category-list .category-list-inner .slick-slide .overlay {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.87) 90.32%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+  }
+  
+  #blog_home #post_gallery .category-list .category-list-inner .slick-slide.slick-active .overlay {
+    background: none;
+  }
+}
+
+@media(max-width: 575px) {
+  #blog_home #post_gallery .post-list .post-item .image {
+    height: 202px;
+  }
+}

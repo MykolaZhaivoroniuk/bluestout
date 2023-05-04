@@ -1,0 +1,566 @@
+#design_development #hero .hero-inner {
+  margin-top: 75px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#design_development #hero .hero-inner .title .big-title {
+  letter-spacing: 1px;
+}
+
+#design_development #hero .hero-inner .content-text {
+  margin-top: 70px;
+}
+
+#design_development #hero .hero-inner .content-text p {
+  padding-bottom: 45px;
+  font-weight: 400;
+}
+
+#design_development #hero .hero-inner .gallery {
+  margin-top: 95px;
+}
+
+#design_development #hero .gallery .value {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+#design_development #hero .gallery .value img {
+  max-height: 40px;
+}
+
+#design_development #trusted_parter {
+  margin-top: 65px;
+}
+
+#design_development #trusted_parter .trusted-parter-inner {
+  padding: 75px 20px 40px 20px;
+  background: #F7F9FC;
+}
+
+#design_development #trusted_parter .trusted-parter-inner .section-title {
+  padding-left: 10px;
+  padding-right: 100px;
+  font-weight: 600;
+}
+
+#design_development #trusted_parter .trusted-parter-inner .description {
+  padding-left: 10px;
+  padding-right: 100px;
+  font-weight: 400;
+}
+
+#design_development #trusted_parter .trusted-parter-inner .section-title img {
+  height: 30px;
+  margin-top: -5px;
+}
+
+#design_development #trusted_parter .trusted-parter-inner .gallery {
+  margin-top: 58px;
+}
+
+#design_development #trusted_parter .trusted-parter-inner .gallery-item .image {
+  border-radius: 6px;
+  background-position: center center;
+  background-size: cover;
+  height: 364px;
+  position: relative;
+}
+
+#design_development #trusted_parter .trusted-parter-inner .gallery-item .image .image-logo {
+  position: absolute;
+  left: 0px;
+  bottom: 20px;
+  width: 107px;
+  display: flex;
+  height: 34px;
+  background: white;
+  align-items: center;
+  justify-content: center;
+}
+
+#design_development #trusted_parter .trusted-parter-inner .gallery-item .image .image-logo img{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#design_development #trusted_parter .trusted-parter-inner .gallery-item .title{
+  margin-top: 12px;
+}
+
+#design_development .exceed-agency-relationship {
+  margin-top: 50px;
+}
+
+#design_development #description_cards {
+  margin-top: 50px;
+}
+
+#design_development #description_cards .description-cards-inner{
+  max-width: 772px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#design_development #description_cards .card {
+  border: none;
+}
+
+#design_development #description_cards .card-head a {
+  position: relative;
+  display: block;
+}
+
+#design_development #description_cards .card-head a::after {
+  display: table;
+  position: absolute;
+  content: '';
+  width: 18px;
+  height: 12px;
+  top: 10px;
+  right: 10px;
+  background: url('../img/down.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#design_development #description_cards .card-item a:not(.collapsed)::after {
+  background: url('../img/up.png');
+  background-size: cover;
+}
+
+#design_development #description_cards .card-item {
+  padding: 30px;
+  border: 1px solid #DCE2E8;
+  border-radius: 4px;
+  margin-bottom: 9px;
+}
+
+#design_development #description_cards .card-item a {
+  letter-spacing: 1px;
+}
+
+#design_development #description_cards .card-item .card-board p {
+  font-weight: 400;
+}
+
+#design_development #description_cards .card-item .card-board p:not(:nth-child(1)) {
+  padding-top: 30px;
+}
+
+#design_development #description_cards .card-item .card-board {
+  padding-top: 10px;
+}
+
+#design_development #description_cards .card-item .card-board a {
+  padding-right: 50px;
+  color: #10A4FA;
+}
+
+#design_development #description_cards .shopify-require {
+  padding-top: 30px;
+  font-weight: 400;
+  margin-left: -10px;
+}
+
+@media (max-width: 1199px) {
+  #design_development #trusted_parter .trusted-parter-inner .gallery-item .image {
+    height: 250px;
+  }
+}
+
+
+@media (max-width: 991px) {
+  #design_development #hero .gallery .value {
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  
+  #design_development #hero .gallery .value img {
+    max-height: 40px;
+  }
+
+  #design_development #trusted_parter .trusted-parter-inner .gallery-item .image {
+    height: 200px;
+  }
+}
+
+@media (max-width: 767px) {
+  #design_development #hero .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #design_development #hero .hero-inner {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  #design_development #hero .hero-inner .content-text {
+    margin-top: 10px;
+  }
+
+  #design_development #hero .hero-inner .content-text p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 35px;
+  }
+
+  #design_development #hero .hero-inner .gallery {
+    margin-top: 25px;
+  }
+
+  #design_development #hero .hero-inner .gallery .gallery-inner {
+    flex-wrap: wrap;
+  }
+
+  #design_development #hero .hero-inner .gallery .gallery-item {
+    float: left;
+    width: 49%;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #design_development #hero .hero-inner .gallery .gallery-item:nth-child(odd) {
+    padding-left: 20px;
+    padding-right: 35px;
+    text-align: right;
+  }
+
+  #design_development #hero .hero-inner .gallery .gallery-item:nth-child(even) {
+    padding-left: 35px;
+    padding-right: 20px;
+    text-align: left;
+  }
+
+  #design_development #hero .hero-inner .gallery .gallery-item:nth-child(odd) .value {
+    justify-content: end;
+  }
+
+  #design_development #hero .hero-inner .gallery .gallery-item:nth-child(even) .value {
+    justify-content: start;
+  }
+
+  #design_development #hero .gallery .value {
+    text-align: end;
+  }
+
+  #design_development #hero .gallery .value img {
+    max-height: 30px;
+  }
+}
+
+#design_development #partner {
+  margin-top: 128px;
+}
+
+#design_development #partner .partner-inner {
+  max-width: 1052px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#design_development #partner .title {
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: 'Playfair Display';
+}
+
+#design_development #partner .gallery {
+  margin-top: 68px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#design_development #partner .gallery .gallery-item {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  width: auto;
+  max-width: 160px;
+}
+
+#design_development #partner .gallery .gallery-item img{
+  max-height: 100%;
+  max-width: 100%;
+} 
+
+#design_development #review {
+  margin-top: 138px;
+}
+
+#design_development #review .quote-box .quote-box-inner {
+  max-width: 562px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#design_development #review .quote-box .quote-box-inner {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+#design_development #review .quote-box .quote-box-inner .title {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#design_development #review .quote-box .quote-box-inner .description {
+  margin-top: 12px;
+}
+
+#design_development #review .quote-box .quote-box-inner .description p {
+  font-weight: 700;
+}
+
+#design_development #review .quote-box .box-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+#design_development #review .quote-box .box-header .box-header-item .value {
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+
+#design_development #review .quote-box .box-header .box-header-item .value img {
+  width: 22px;
+}
+
+#design_development #review .quote-box .box-header .box-header-item .value img {
+  height: 27px;
+}
+
+#design_development #review .more-case-studies {
+  margin-top: 68px;
+}
+
+@media(max-width: 1199px) {
+  #design_development #partner .gallery {
+    display: block;
+    margin-top: 44px;
+  }
+
+  #design_development #partner .gallery .gallery-item {
+    max-width: 100%;
+  }
+
+  #design_development #partner .gallery::before {
+    display: table;
+    content: '';
+  }
+
+  #design_development #partner .gallery::after {
+    display: table;
+    content: '';
+    clear: both;
+  }
+
+  #design_development #partner .gallery .gallery-item {
+    height: 60px;
+  }
+
+  #design_development #partner .gallery .gallery-item {
+    float: left;
+    width: calc(100% / 3);
+    justify-content: center;
+    margin-top: 22px;
+  }
+
+  #design_development #review .col {
+    width: 100%;
+  }
+
+  #design_development #review .col:nth-child(2) {
+    margin-top: 30px;
+  }
+
+  #design_development #review .quote-box .quote-box-inner {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 767px) {
+  #design_development #partner {
+    margin-top: 66px;
+  }
+
+  #design_development #partner .title {
+    font-size: 26px;
+    line-height: 34;
+  }
+
+  #design_development #partner .gallery .gallery-item {
+    height: 50px;
+  }
+  
+  #design_development #partner .gallery .gallery-item img {
+    max-width: 100%;
+    max-height: 42px;
+  }
+
+  #design_development #review {
+    margin-top: 66px;
+  }
+
+  #design_development #review .row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  #design_development #review .quote-box {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #design_development #review .quote-box .box-header .box-header-item .value {
+    font-size: 20px;
+  }
+
+  #design_development #review .quote-box .box-header .box-header-item .value img {
+    height: 11px;
+    width: auto;
+  }
+
+  #design_development #review .quote-box .box-header .box-header-item .description p {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  #design_development #review .more-case-studies {
+    margin-top: 30px;
+  }
+
+  #design_development #description_cards .card-head a::after {
+    width: 15px;
+    height: 10px;
+    top: 10px;
+    right: 10px;
+  }
+
+  #design_development #trusted_parter .trusted-parter-inner .gallery-item .image {
+    height: 322px;
+  }
+
+  #design_development #trusted_parter .slick-slide {
+    opacity: 1;
+  }
+
+  #design_development #description_cards .card-item {
+    padding: 15px 12px 15px 30px;
+  }
+
+  #design_development #description_cards .card-item a:not(.collapsed) {
+    padding-top: 15px;
+  }
+
+  #design_development #description_cards .card-item .collapse.show .card-board {
+    padding-bottom: 30px;
+  }
+
+  #design_development #description_cards .card-item a {
+    padding-right: 50px;
+  }
+
+  #design_development #review .quote-box .quote-box-inner .title {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #design_development #trusted_parter .slideme-3 .slick-slide .prepare-cover {
+    position: absolute;
+    top: 0px;
+    left: 10%;
+    width: 30%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(90deg, rgba(247, 249, 252, 0) 0%, rgba(247, 249, 252, 0.87) 90.32%);
+  }
+  
+  #design_development #trusted_parter .slideme-3 .slick-current .prepare-cover, .slideme-3 .slick-active .prepare-cover {
+    display: none;
+  }
+}
+
+@media(max-width: 575px) {
+
+  #design_development #trusted_parter .trusted-parter-inner .section-title {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  #design_development #trusted_parter .trusted-parter-inner .description {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #design_development #trusted_parter .trusted-parter-inner .section-title P {
+    font-size: 18px;
+  }
+
+  #design_development #trusted_parter {
+    margin-top: 34px;
+  }
+
+  #design_development #trusted_parter .trusted-parter-inner {
+    padding-top: 40px;
+    padding-bottom: 22px;
+  }
+
+  #design_development #trusted_parter .trusted-parter-inner .gallery {
+    margin-top: 30px;
+  }
+
+  #design_development #trusted_parter .trusted-parter-inner .description p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 5px;
+  }
+
+  #design_development #trusted_parter .trusted-parter-inner .gallery-item .title p {
+    text-align: left;
+  }
+
+  #design_development #trusted_parter .trusted-parter-inner .section-title img {
+    margin-top: 0px;
+  }
+
+  #design_development .exceed-agency-relationship {
+    margin-top: 10px;
+  }
+
+  #design_development #description_cards {
+    margin-top: 10px;
+  }
+
+  #design_development #description_cards .card-item a {
+    font-size: 14px;
+  }
+
+  #design_development #description_cards .card-head a::after {
+    top: 6px;
+  }
+
+  #design_development #description_cards .card-item .card-board p {
+    padding-left: 10px;
+    padding-right: 30px;
+    font-size: 15px;
+  }
+
+  #design_development #description_cards .shopify-require {
+    margin-left: 0px;
+    text-align: center;
+  }
+}
+

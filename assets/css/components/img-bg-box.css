@@ -1,0 +1,52 @@
+.img-bg-box {
+  background-color: #1B222B;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 78px 200px;
+  border-radius: 20px;
+}
+.img-bg-box .title {
+  line-height: 53px;
+  font-family: 'Playfair Display';
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.img-bg-box .content {
+  margin-top: 20px;
+  font-weight: 400;
+}
+.img-bg-box .book-a-call {
+  margin-top: 30px;
+}
+.img-bg-box .btn-book-call {
+  padding: 16px 138px;
+  background: #10A4FA;
+  display: inline-flex;
+  border-radius: 4px;
+  letter-spacing: 1.4px;
+  font-weight: 600;
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .img-bg-box {
+    padding: 50px 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .img-bg-box {
+    padding: 36px 30px 47px 30px;
+  }
+
+  .img-bg-box .title h2 {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 1px;
+  }
+
+  .img-bg-box .btn-book-call {
+    padding: 16px 50px;
+  }
+}

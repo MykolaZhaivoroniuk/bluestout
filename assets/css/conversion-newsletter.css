@@ -1,0 +1,541 @@
+#conversion_newsletter #hero .hero-inner {
+  width: 991px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#conversion_newsletter #hero .category p{
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+
+#conversion_newsletter #hero .title h1{
+  font-family: 'Playfair Display';
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+#conversion_newsletter #hero .content p{
+  padding-top: 30px;
+  padding-left: 45px;
+  padding-right: 45px;
+  font-weight: 500;
+}
+
+#conversion_newsletter .gform_wrapper, #conversion_newsletter .gform_wrapper *{
+  margin: 0;
+  padding: 0;
+  width: initial;
+  height: initial;
+  clear: initial;
+  opacity: inherit;
+  max-width: initial !important;
+}
+
+#conversion_newsletter #review {
+  width: 450px;
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#conversion_newsletter #review .content {
+  position: relative;
+  font-weight: 400;
+}
+
+#conversion_newsletter #review .content img.quote-sign{
+  width: 33px;
+  height: 24px;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+#conversion_newsletter #review .revelator {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#conversion_newsletter #review .revelator .photo {
+  width: 118px;
+  height: 118px;
+  border-radius: 50%;
+  display: flex;
+  overflow: hidden;
+}
+
+#conversion_newsletter #review .revelator .logo {
+  margin-left: 25px;
+}
+
+#conversion_newsletter #review .revelator .logo img {
+  width: auto;
+  height: 50px;
+}
+
+#conversion_newsletter #review .revelator .logo .user-name{
+  font-weight: 500;
+}
+
+#conversion_newsletter #review .down-bar {
+  margin-top: 17px;
+  height: 55px;
+  border-right: 1px solid #AFBFCA6E;
+}
+
+#conversion_newsletter #brands_rely {
+  margin-top: 45px;
+}
+
+#conversion_newsletter #brands_rely .brands-rely-inner {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+#conversion_newsletter #brands_rely .brands-rely-inner .content {
+  font-weight: 500;
+}
+
+#conversion_newsletter #brands_rely .brands-rely-inner .row {
+  justify-content: center;
+}
+
+#conversion_newsletter #brands_rely .brands-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+#conversion_newsletter #brands_rely .brands-item img {
+  max-width: 100%;
+  max-height: 70px;
+}
+
+#conversion_newsletter #share_conversion_tacties .content h2 {
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+#conversion_newsletter #share_conversion_tacties .dark-block-box {
+  position: relative;
+}
+
+#conversion_newsletter #share_conversion_tacties {
+  padding-right: 75px;
+  margin-top: 75px;
+}
+
+#conversion_newsletter #share_conversion_tacties .content {
+  width: 48%;
+  min-height: 450px;
+}
+
+#conversion_newsletter #share_conversion_tacties .content p{
+  width: 100%;
+}
+
+#conversion_newsletter #share_conversion_tacties .images{
+  width: 100%;
+  position: absolute;
+  right: -53px;
+  top: 41px;
+  width: auto;
+}
+
+#conversion_newsletter #share_conversion_tacties .images .not-this {
+  margin-top: 81px;
+}
+
+#conversion_newsletter #review2 {
+  margin-top: 100px;
+}
+
+#conversion_newsletter #review2 .review2-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+}
+
+#conversion_newsletter #review2 .review2-item {
+  width: 500px;
+}
+
+#conversion_newsletter #review2 .review2-item .data {
+  display: flex;
+}
+
+#conversion_newsletter #review2 .review2-item .data .content {
+  margin-left: 25px;
+  font-weight: 400;
+  color: #000000;
+}
+
+#conversion_newsletter #review2 .review2-item .data .content .content-text {
+  min-height: 118px;
+  display: flex;
+  align-items: center;
+}
+
+#conversion_newsletter #review2 .review2-item .data .content .content-text-inner {
+  position: relative;
+}
+
+
+#conversion_newsletter #review2 .review2-item .data img.quote-sign{
+  width: 33px;
+  height: 24px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#conversion_newsletter #review2 .review2-item .data .photo {
+  min-width: 118px;
+  height: 118px;
+  border-radius: 50%;
+  width: 118px;
+  overflow: hidden;
+}
+
+#conversion_newsletter #review2 .review2-item .data .photo img {
+  width: 100%;
+}
+
+#conversion_newsletter #review2 .review2-item .company {
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+#conversion_newsletter #review2 .review2-item .company img {
+  height: 27px;
+}
+
+#conversion_newsletter #get_real_crw {
+  margin-top: 72px;
+}
+
+#conversion_newsletter #get_real_crw .img-bg-box {
+  padding: 78px 100px;
+}
+
+#conversion_newsletter #get_real_crw .img-bg-box .book-a-call {
+  margin-top: 50px;
+}
+
+#conversion_newsletter #get_real_crw .gform_wrapper .input-email input {
+  width: 320px !important;
+  font-size: 15px !important;
+}
+
+#conversion_newsletter #get_real_crw .gform_wrapper input[type='submit'] {
+  background: #10A4FA !important;
+  color: white !important;
+  padding: 15px 24px 15px 19px !important;
+  margin-left: 18px !important;
+}
+
+#conversion_newsletter #get_real_crw .gform_wrapper input[type='submit']:hover {
+  background: #0993e3 !important;  
+}
+
+
+#conversion_newsletter #get_real_crw .title h2 {
+  font-size: 48px;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+#conversion_newsletter #newsletter_form {
+  margin-top: 30px;
+}
+
+@media (max-width: 1199px) {
+  #conversion_newsletter #hero .hero-inner {
+    width: 90%;
+    margin-top: 50px;
+  }
+
+  #conversion_newsletter #share_conversion_tacties .content h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  #conversion_newsletter #review2 .review2-inner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+  }
+
+  #conversion_newsletter #review2 {
+    margin-top: 50px;
+  }
+
+  #conversion_newsletter #review2 .review2-item .data .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #conversion_newsletter #review2 .review2-item .data .content .content-text {
+    min-height: 0;
+  }
+
+  #conversion_newsletter #review2 .review2-inner .review2-item:nth-child(2){
+    margin-top: 50px;
+  }
+
+  #conversion_newsletter #get_real_crw .title h2 {
+    font-size: 33px;
+  }
+}
+
+@media (max-width: 991px) {
+  #conversion_newsletter #review2 .review2-inner {
+    padding: 0px;
+    width: 100%;
+  }
+
+  #conversion_newsletter #share_conversion_tacties .images {
+    position: initial;
+  }
+  #conversion_newsletter #share_conversion_tacties .dark-block-box .content {
+    width: 100%;
+  }
+
+  #conversion_newsletter #share_conversion_tacties .content {
+    min-height: initial;
+  }
+
+  #conversion_newsletter #share_conversion_tacties .images .not-this {
+    margin-top: initial;
+  }
+
+  #conversion_newsletter #share_conversion_tacties {
+    padding-right: 30px;
+  }
+
+  #conversion_newsletter #get_real_crw input.input-email {
+    width: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .smd-title {
+      font-size: 28px;
+      line-height: 42px;
+  }
+  #conversion_newsletter #hero .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #conversion_newsletter #hero .hero-inner {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 40px;
+    width: 100%;
+  }
+  #conversion_newsletter #hero .title h1 {
+    letter-spacing: 0px;
+  }
+  #conversion_newsletter #hero .content p {
+    padding-top: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #041F33;
+  }
+
+  #conversion_newsletter #brands_rely .brands-rely-inner {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #conversion_newsletter #review .content img.quote-sign {
+    margin-top: 0px;
+  }
+
+  #conversion_newsletter #review {
+    margin-top: 35px;
+    width: 100%;
+  }
+
+  #conversion_newsletter #review .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #conversion_newsletter #review .content img.quote-sign{
+    display: block;
+    position: inherit;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  #conversion_newsletter #review .content blockquote {
+    text-indent: 0px;
+  }
+
+  #conversion_newsletter #review .content p {
+    font-size: 16px;
+    line-height: 27.2px;
+  }
+
+  #conversion_newsletter #review .revelator .photo {
+    width: 59px;
+    height: 59px;
+  }
+
+  #conversion_newsletter #review .revelator .logo {
+    text-align: left !important;
+    font-size: 16px;
+    margin-left: 12px;
+  }
+
+  #conversion_newsletter #review .revelator .logo img {
+    height: 22px;
+  }
+  
+  #conversion_newsletter #review .down-bar {
+    margin-top: 45px;
+    height: 1px;
+    border-top: 2px solid #EAEDF0;
+    border-right: none;
+  }
+
+  #conversion_newsletter #brands_rely {
+    margin-top: 35px;
+  }
+
+  #conversion_newsletter #brands_rely .content {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  #conversion_newsletter #share_conversion_tacties {
+    margin-top: 35px;
+  }
+
+  #conversion_newsletter #share_conversion_tacties .content h2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  #conversion_newsletter #share_conversion_tacties .content p {
+    width: 100%;
+  }
+
+  #conversion_newsletter #review2 .container {
+    padding-left: 25px;
+    padding-right: 32px;
+  }
+
+  #conversion_newsletter #review2 .review2-item .data .photo {
+    width: 72px;
+    height: 72px;
+    min-width: 72px;
+  }
+
+  #conversion_newsletter #share_conversion_tacties {
+    padding-right: 10px;
+  }
+
+  #conversion_newsletter #review2 .review2-item .data .content {
+    margin-left: 20px
+  }
+
+  #conversion_newsletter #review2 .review2-item .data .content .content-text-inner p{
+    font-size: 16px;
+  }
+
+  #conversion_newsletter #review2 .review2-item .data img.quote-sign {
+    width: 26px;
+    height: 19px;
+    top: 4px;
+  }
+
+  #conversion_newsletter #get_real_crw {
+    margin-top: 38px;
+  }
+
+  #conversion_newsletter #get_real_crw .img-bg-box {
+    padding: 36px 31px 47px 31px;
+  }
+
+  #conversion_newsletter #get_real_crw .title h2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  #conversion_newsletter #review2 .review2-item {
+    width: auto;
+  }
+
+  #conversion_newsletter #review .content {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #conversion_newsletter #share_conversion_tacties .dark-block-box {
+    padding: 28px 31px 22px 31px;
+  }
+
+  #conversion_newsletter .dark-block-box .content .btn-review {
+    padding: 12px 25px;
+  }
+}
+
+@media(max-width: 575px) {
+  #conversion_newsletter #get_real_crw .img-bg-box .book-a-call {
+    margin-top: 30px;
+  }
+
+  #conversion_newsletter #get_real_crw .img-bg-box {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  #conversion_newsletter #get_real_crw .gform_wrapper form {
+    display: block !important;
+  }
+
+  #conversion_newsletter #get_real_crw .gform_wrapper .input-email input {
+    width: 100% !important;
+  }
+  
+  #conversion_newsletter #get_real_crw .gform_wrapper input[type='submit'] {
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-top: 17px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }  
+
+  #conversion_newsletter #get_real_crw .img-bg-box {
+    padding: 36px 24px 42px 23px;
+  }
+
+  #conversion_newsletter #get_real_crw .img-bg-box .content {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  #conversion_newsletter #get_real_crw .img-bg-box .book-a-call {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
